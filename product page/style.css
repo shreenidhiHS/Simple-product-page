@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+li {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-image: linear-gradient(to bottom, orange,white,green);
+}
+h1{
+    cursor: pointer;
+}
+.nav-bar{
+    list-style: none;
+}
+.nav-bar li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin-left: 25%;
+}
+
+.container{
+    margin-top: 100px;
+}
+.newarrival{
+    background: green;
+    width: 100px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    animation: grow;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes grow{
+    0%{
+    transform: scale(1.0);
+    }
+    50%{
+    transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+.col-md-7{
+    color: #555;
+
+}
+.price{
+    color: black;
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.button{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: fit-content;
+    height: 100px;
+
+}
+.buy{
+    background-color: orange;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 20px;
+    
+}
+.buy:hover{
+    background-color: red;
+    transform: scale(1.2);
+    animation-timing-function: ease-in-out;
+}
+.cart{
+    background-color: orange;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.cart:hover{
+    background-color: red;
+    transform: scale(1.2);
+    animation-timing-function: ease-in-out;
+}
+.rating{
+    width: 100px;
+    height: 80px;
+    margin-top: -30px;
+}
+.offer{
+    margin-top: 20px;
+
+}
+.full-specs{
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+
+}
+.comment-box{
+    margin-top: 50px;
+    height: auto;
+
+}
+textarea{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.button-sub{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    
+}
